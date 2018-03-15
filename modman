@@ -1,2 +1,2 @@
-app/code/community/kasterweb/FlagProducts/  app/code/community/kasterweb/FlagProducts/
+app/code/community/Kasterweb/FlagProducts app/code/community/Kasterweb/FlagProducts
 app/etc/modules/Kasterweb_FlagProducts.xml  app/etc/modules/Kasterweb_FlagProducts.xml
