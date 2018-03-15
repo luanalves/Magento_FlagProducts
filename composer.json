@@ -1,0 +1,20 @@
+{
+  "name": "kasterweb/flagproducts",
+  "license": "GPL-3.0",
+  "type": "magento-module",
+  "description": "Magento Products Flag",
+  "version": "1.0.0",
+  "keywords": [
+    "Kasterweb","Flag Products","Magento"
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.6"
+  },
+  "authors": [
+    {
+      "name": "Luan Alves",
+      "email": "luan.prog@gmail.com"
+    }
+  ]
+}

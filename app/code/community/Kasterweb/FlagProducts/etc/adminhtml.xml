@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <kasterweb module="kasterweb_flagproducts">
+            <title>Kasterweb</title>
+            <sort_order>100</sort_order>
+            <children>
+                <kasterweb_flagproducts module="kasterweb_flagproducts">
+                    <title>Product Flags</title>
+                    <sort_order>10</sort_order>
+                    <action>adminhtml/flags</action>
+                </kasterweb_flagproducts>
+            </children>
+        </kasterweb>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <kasterweb translate="title" module="kasterweb_flagproducts">
+                        <title>FlagProducts</title>
+                        <sort_order>1000</sort_order>
+                        <children>
+                            <kasterweb_flagproducts translate="title">
+                                <title>Manage Flag</title>
+                                <sort_order>10</sort_order>
+                            </kasterweb_flagproducts>
+                        </children>
+                    </kasterweb>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
