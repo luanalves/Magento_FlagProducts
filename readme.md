@@ -6,17 +6,17 @@ This module does not contemplate customizing the front end.
 After running the module setup. The Kasterweb -> Manage Flags menu will appear.
 This menu will be responsible for registering the images of the flags.
 
-<img align="right" src="doc/images/admin-step1.png">
-<img align="right" src="doc/images/admin-step2.png">
-<img align="right" src="doc/images/admin-step3.png">
-<img align="right" src="doc/images/admin-step4.png">
-<img align="right" src="doc/images/admin-step5.png">
+<img align="right" src="doc/images/admin-step1.png" />
+<img align="right" src="doc/images/admin-step2.png" />
+<img align="right" src="doc/images/admin-step3.png" />
+<img align="right" src="doc/images/admin-step4.png" />
+<img align="right" src="doc/images/admin-step5.png" />
 
 After registering the flags, simply access the desired product and enter the desired flag.
 
-<img align="right" src="doc/images/admin-step6.png">
-<img align="right" src="doc/images/admin-step7.png">
-<img align="right" src="doc/images/admin-step8.png">
+<img align="right" src="doc/images/admin-step6.png" />
+<img align="right" src="doc/images/admin-step7.png" />
+<img align="right" src="doc/images/admin-step8.png" />
 
 
 ## Example of use
@@ -43,14 +43,5 @@ if ($_product->getKasterwebFlag()) {
 
 ## Category List
 
-
-<img align="right" src="doc/images/categories-products-grid.png">
-<img align="right" src="doc/images/categories-products-list.png">
-
-
-## Product View
-
-
-<img align="right" src="doc/images/product-view.png">
-<img align="right" src="doc/images/products-upsell.png">
-<img align="right" src="doc/images/products-relateds.png">
+<img align="right" src="doc/images/categories-products-grid.png" />
+<img align="right" src="doc/images/categories-products-list.png" />
