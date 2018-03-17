@@ -41,14 +41,14 @@ if ($_product->getKasterwebFlag()) {
 ?>
 ```
 
-### Category List
+## Category List
 
 
 <img align="right" src="doc/images/categories-products-grid.png">
 <img align="right" src="doc/images/categories-products-list.png">
 
 
-### Product View
+## Product View
 
 
 <img align="right" src="doc/images/product-view.png">
