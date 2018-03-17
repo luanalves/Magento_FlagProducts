@@ -45,3 +45,10 @@ if ($_product->getKasterwebFlag()) {
 
 <img align="right" src="doc/images/categories-products-grid.png" />
 <img align="right" src="doc/images/categories-products-list.png" />
+
+<hr />
+## Product View
+
+<img align="right" src="doc/images/product-view.png" />
+<img align="right" src="doc/images/products-upsell.png" />
+<img align="right" src="doc/images/products-relateds.png" />
