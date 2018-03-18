@@ -32,6 +32,8 @@ modman run deploy-all
  ```
 php n98-magerun.phar cache:flush ; php n98-magerun.phar sys:deploy:run
  ```
+## Add entry ".modman" in .gitignore
+
 
 ## Configure Flags
 After running the module setup. The Kasterweb -> Manage Flags menu will appear.
