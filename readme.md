@@ -14,6 +14,11 @@ or
 bash < <(curl -s -L https://raw.github.com/colinmollenhour/modman/master/modman-installer)
 ```
 
+Init Modman
+ ```
+modman init
+ ```
+ 
 Clone project using modman.
  ```
 modman clone https://github.com/luanalves/Magento_FlagProducts.git
