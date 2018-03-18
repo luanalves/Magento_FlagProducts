@@ -14,6 +14,11 @@ or
 bash < <(curl -s -L https://raw.github.com/colinmollenhour/modman/master/modman-installer)
 ```
 
+Init Modman
+ ```
+modman init
+ ```
+ 
 Clone project using modman.
  ```
 modman clone https://github.com/luanalves/Magento_FlagProducts.git
@@ -22,7 +27,12 @@ Install by modman
  ```
 modman run deploy-all
  ```
- Run Setup Magento.
+ Run Setup Magento by N98
+ 
+ ```
+php n98-magerun.phar cache:flush ; php n98-magerun.phar sys:deploy:run
+ ```
+## Add entry ".modman" in .gitignore
 
 
 ## Configure Flags
@@ -63,6 +73,16 @@ if ($_product->getKasterwebFlag()) {
 }
 ?>
 ```
+Code CSS example
+```
+.flag {
+    float: left;
+    width: 50%;
+    z-index: 10;
+    position: absolute;
+}
+```
+
 
 CATEGORY LIST
 <hr />
