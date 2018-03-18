@@ -71,6 +71,16 @@ if ($_product->getKasterwebFlag()) {
 }
 ?>
 ```
+Code CSS example
+```
+.flag {
+    float: left;
+    width: 50%;
+    z-index: 10;
+    position: absolute;
+}
+```
+
 
 CATEGORY LIST
 <hr />
