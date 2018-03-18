@@ -27,8 +27,11 @@ Install by modman
  ```
 modman run deploy-all
  ```
- Run Setup Magento.
-
+ Run Setup Magento by N98
+ 
+ ```
+php n98-magerun.phar cache:flush ; php n98-magerun.phar sys:deploy:run
+ ```
 
 ## Configure Flags
 After running the module setup. The Kasterweb -> Manage Flags menu will appear.
