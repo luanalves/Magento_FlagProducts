@@ -5,6 +5,7 @@ class Kasterweb_FlagProducts_Model_Attribute_Source_Flags extends Mage_Eav_Model
 
     public function getAllOptions($withEmpty = true)
     {
+        $options='';
         if (!$this->_options) {
             $options = Mage::getModel('kasterweb_flagproducts/flags')->getCollection();
 
