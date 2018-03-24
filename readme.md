@@ -30,7 +30,7 @@ modman run deploy-all
  Run Setup Magento by N98
  
  ```
-php n98-magerun.phar cache:flush ; php n98-magerun.phar sys:deploy:run
+php n98-magerun.phar cache:clean ; php n98-magerun.phar sys:setup:run
  ```
 ## Add entry ".modman" in .gitignore
 
